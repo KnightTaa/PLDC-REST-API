@@ -21,6 +21,11 @@ const PORT = process.env.PORT || 5000
 //Setting body parser to get access of request.body
 app.use(bodyParser.json())
 
+//Home View
+app.get('/', (req, res) => {
+    res.send("PLDC REST API");
+})
+
 //Setting the route to the app as middlewares
 app.use('/posts', postRouter)
 app.use('/covid', coviddataRouter)
