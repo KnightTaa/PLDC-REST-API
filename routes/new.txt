@@ -17,3 +17,11 @@ http://localhost:5000/covid
     "local_active_cases":10,
     "total_pcr_testing_count":10
 }
+
+"start": "set NODE_ENV=development && nodemon index.js",
+    "start-prod": "set NODE_ENV=production && nodemon index.js"
+
+    "engines": {
+    "node": "14.17.6"
+  }
+
