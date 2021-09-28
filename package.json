@@ -6,8 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "set NODE_ENV=development && nodemon index.js",
-    "start-prod": "set NODE_ENV=production && nodemon index.js"
+    "start": "nodemon index.js"
     
   },
   "keywords": [],
@@ -21,8 +20,5 @@
   "devDependencies": {
     "dotenv": "^10.0.0",
     "nodemon": "^2.0.13"
-  },
-  "engines": {
-    "node": "14.17.6"
   }
 }
